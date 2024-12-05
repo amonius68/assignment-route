@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+	<title>Weather</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+  <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="Constants/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Constants/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+		
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <div class="py-4 d-flex align-items-center justify-content-center">
+        <img src="imgs/logo.png" alt="weather logo" />
+        <div class="content-logo d-flex flex-column align-items-center justify-content-center">
+          <a class="navbar-brand text-white px-2" href="/">Weather</a>
+          <p class="para-logo text-white px-2">tagline goes here</p>
+        </div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 py-4">
+          <li class="nav-item px-3 link-active">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#"> News </a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#">Photos</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- search -->
+
+  <section>
+    <div class="container">
+      <div class="custom-search shadow mx-auto">
+        <input id="search" type="text" placeholder="Find your location..." aria-label="Search" />
+        <button type="button">Find</button>
+      </div>
+    </div>
+    <div class="bg-img"></div>
+  </section>
+
+  <!-- Current Weather -->
+
+  <section class="current-weather bg-dark text-light">
+    <div class="container">
+      <div id="rowData" class="row row-special">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row content-footer mb-4">
+            <div class="col-md-8 mb-3 mb-md-0">
+                <div class="custom-footer subscribe-section shadow">
+                    <input type="email" placeholder="Enter your email to subscribe..." aria-label="Email" />
+                    <button type="button">Subscribe</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="social-icons d-flex justify-content-md-end mt-3">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="opacity-50 text-start">Copyright 2014 Company name. Designed by Themezy. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+    
+    <script src="index.js"></script>
+    <script src="Constants/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Constants/fontawesome/js/all.min.js"></script>
+</body>
+</html>

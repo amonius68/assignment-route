@@ -1,0 +1,191 @@
+nav.navbar {
+  background-color: #1e202b;
+}
+
+.para-logo {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+nav ul .link-active {
+  border: 2px solid #009ad8;
+  margin-inline: 10px;
+  border-radius: 50px;
+}
+
+nav ul .link-active .active {
+  color: #009ad8 !important;
+}
+.nav-item {
+  margin-inline: 10px;
+  border: 2px solid transparent;
+}
+
+.nav-item:hover {
+  border: 2px solid #009ad8;
+  color: #009ad8;
+  border-radius: 50px;
+}
+
+.nav-item a:hover {
+  color: #009ad8 !important;
+}
+
+.bg-img {
+  background-image: url(imgs/banner.png);
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+}
+
+section .container {
+  position: relative;
+}
+
+.custom-search {
+  display: flex;
+  align-items: center;
+  background-color: #1e202b;
+  border-radius: 30px;
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 99;
+  width: 98%;
+  top: 50px;
+}
+
+.custom-search input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.custom-search input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-search button {
+  background-color: #00a2ff;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+}
+
+.custom-search button:hover {
+  background-color: #008cd4;
+}
+
+section.current-weather {
+  background-color: #1e202b !important;
+  /* height: 22rem; */
+}
+
+section.current-weather .container .row h2 {
+  font-size: 3rem;
+}
+
+section.current-weather .container .row p {
+  margin: 0;
+}
+
+section.current-weather .container .row img {
+  margin-top: 15px;
+}
+
+section.current-weather .row-special {
+  position: relative;
+  bottom: 6rem;
+}
+
+section.current-weather .container .card {
+  height: 25rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+
+
+
+.footer {
+  background-color: #252839;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.footer .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-icon {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1d1f2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  color: #00aced;
+  font-size: 18px;
+}
+
+.social-icon:hover {
+  background-color: #00aced !important;
+  color: #fff !important;
+}
+
+
+.footer .custom-footer {
+  display: flex;
+  align-items: center;
+  background-color: #1e202b;
+  border-radius: 30px;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.footer .custom-footer input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.footer .custom-footer input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.footer .custom-footer button {
+  background-color: #00a2ff;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer .custom-footer button:hover {
+  background-color: #008cd4;
+}
