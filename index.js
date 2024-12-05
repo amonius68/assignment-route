@@ -6,7 +6,7 @@ document.getElementById('search').addEventListener('input', function(){
 });
 
 function weatherApi(weather){
-  myHttp.open("GET", `http://api.weatherapi.com/v1/forecast.json?key=cb90132a4ca54686b35161551240512&q=${weather}&days=3`);
+  myHttp.open("GET", `https://api.weatherapi.com/v1/forecast.json?key=cb90132a4ca54686b35161551240512&q=${weather}&days=3`);
   myHttp.responseType = 'json';
   myHttp.send();
 
