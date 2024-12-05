@@ -6,16 +6,13 @@ document.getElementById('search').addEventListener('input', function(){
 });
 
 function weatherApi(weather){
-  myHttp.open("GET", `http://api.weatherapi.com/v1/forecast.json?key=dd312de96d8249ccb0394716240312&q=${weather}&days=3`);
+  myHttp.open("GET", `http://api.weatherapi.com/v1/forecast.json?key=cb90132a4ca54686b35161551240512&q=${weather}&days=3`);
   myHttp.responseType = 'json';
   myHttp.send();
 
 myHttp.addEventListener('load', function () {
     if (myHttp.status >= 200 && myHttp.status < 300) {
         displayData(myHttp.response);
-    }else{
-      console.error('Error:', myHttp.status);
-      alert('Error: Failed to retrieve weather data.');
     }
 });
 }
