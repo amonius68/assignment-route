@@ -50,7 +50,6 @@ section .container {
   padding: 0.5rem;
   position: absolute;
   z-index: 99;
-  width: 98%;
   top: 50px;
 }
 
@@ -125,12 +124,6 @@ section.current-weather .container .card {
   color: #fff;
 }
 
-.footer .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .social-icon {
   margin: 0 5px;
   width: 40px;
@@ -158,8 +151,6 @@ section.current-weather .container .card {
   background-color: #1e202b;
   border-radius: 30px;
   padding: 0.5rem;
-  width: 100%;
-  max-width: 800px;
 }
 
 .footer .custom-footer input {
@@ -181,7 +172,7 @@ section.current-weather .container .card {
   border: none;
   color: white;
   border-radius: 30px;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 2%;
   cursor: pointer;
   transition: background-color 0.3s;
 }
